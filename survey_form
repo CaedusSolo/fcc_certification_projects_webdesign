@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <link rel="stylesheet" href="styles.css">
+    <head>
+      <meta charset="UTF-8">
+      <h1 id="title"><b>ZUS COFFEE SURVEY FORM</b></h1> 
+      <p id="description"><b>Dear valued customers, we are conducting a survey to help us improve the quality of coffee that we serve. Please fill in this form. Thanks!</b></p> 
+    </head>
+      <body>
+        <div>
+      <form id="survey-form" action="https://www.freecodecamp.org/learn/2022/responsive-web-design/#build-a-survey-form-project"> 
+        <fieldset>
+          <label id="name-label">Enter your name: <input id="name" type="text" required placeholder="John Doe">
+          </label>
+          <label id="email-label">Enter your email: <input type="email" name="email" id="email" placeholder="someone@example.com"required>
+          </label>
+          <label id="number-label">Enter your age (optional): <input id="number" type="number" min="1" max="120" id="number" placeholder="Select your age ">
+          </label>
+    <label>Which drink do you think is the best at Zus Coffee?
+<select id="dropdown">
+  <option value="">Select drink</option>
+  <option value="americano">Americano</option>
+  <option value="latte">Latte</option>
+  <option value="mocha">Mocha</option> 
+  <option value="iced-frappucino">Iced Frappucino</option>
+  <option value="flat-white">Flat White</option>
+  <option value="cold-brew">Cold Brew</option>
+      </label>
+      <br>
+      </select>
+      <label for="recommendation">Would you recommend Zus Coffee to others?</label>
+        <label><input type="radio" name="recommendation" id="recommendation" value="definitely"> Definitely
+      </label>
+      <label><input type="radio" name="recommendation" value="maybe"> Maybe</label>
+      <label><input type="radio" name="recommendation" value="no"> Nah</label>
+      <label><input type="radio" name="recommendation" value="starbucks-is-better"> Starbucks is better</label>
+      <label>Have extra feedback that you would like us to consider? Leave them down below!
+      <textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="I would like you guys to..."></textarea>
+      </textarea>
+      </label>
+      <label>What items should we add to our menu to make it better? (Select all that apply)</label>
+      <label><input type="checkbox" value="matcha-latte"> Matcha Latte</label>
+      <label><input type="checkbox" value="hot-chocolate"> Hot Chocolate</label>
+      <label><input type="checkbox" value="salted-caramel-latte"> Salted Caramel Latte</label>
+      <label><input type="checkbox" value="earl-grey-tea"> Earl Grey Tea</label>
+      <label><input type="checkbox" value="english-breakfast-tea"> English Breakfast Tea</label>
+      <label><input type="checkbox" value="more-sizes"> More sizes</label>
+      <label><input type="checkbox" value="cappucino"> Cappucino</label>
+      </fieldset>
+        <label><input type="submit" value="Submit" id="submit" name="submit"/>
+        </label>
+      </form>
+      </div>
+    </body>
+</html>
