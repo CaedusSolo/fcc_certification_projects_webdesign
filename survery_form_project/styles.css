@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    color: #FFFFFF;
+    font-family: "Ink Free";
+  } 
+  
+  p {
+    font-family: "Verdana";
+    color: white;
+  }
+  
+  label {
+    display: block;
+    padding: 7px 2px;
+    font-family: "Verdana"
+  } 
+  
+  div {
+    background: #E5D3B3;
+    margin: auto;
+    max-width: 700px
+  } 
+  
+  body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    padding: 20px 20px;
+    margin: auto;
+  }
+  
+  input[type="submit"] {
+    margin: auto;
+    display: block;
+    width: 60%;
+    height: 50px;
+    font-size: 1.2em;
+    font-family: Bookman Old Style;
+    min-width: 50px
+  }
+  
+  textarea {
+    width: 100%;
+    min-height: 2em;
+    padding: 7px 6px
+  }
