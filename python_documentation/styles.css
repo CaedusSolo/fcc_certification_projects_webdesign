@@ -1,0 +1,103 @@
+h2 {
+    font-family: Verdana, Tahoma;
+    font-size: 1.5em;
+    padding-left: 40px;
+    padding-top: 15px
+  }
+  
+  nav li {
+    font-family: Tahoma, Verdana;
+    font-size: 1.2rem;
+  
+  }
+  
+  #python-logo {
+    width: 200px;
+    height: 230px;
+    padding-top: 20px;
+    padding-left: 45%;
+    
+  }
+  
+  .header {
+    font-family: Tahoma, Verdana;
+    font-size: 1.3rem;
+    font-weight: 550;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  .main-section p {
+    font-size: 1.2rem;
+    font-family: Trebuchet MS;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  } 
+  
+  .code {
+     background-color: white;
+    font-size: 18;
+    padding-left: 30px;
+    width: 100%;
+    color: black;
+  }
+  
+  body {
+    background-color: rgb(234,234,234); 
+    display: flex;
+    min-height: 100vh;
+    min-width: 750px;
+  }
+  
+  #navbar {
+    border-bottom: 2px solid black;
+    width: 100%;
+    background-color: white;
+  
+  }
+  
+  #navbar li {
+    list-style: none;
+    border-top: 1px solid black;
+    padding: 5px;
+  }
+  
+  #navbar a {
+    text-decoration: none;
+    color: grey;
+  } 
+  
+  #navbar li:hover {
+    cursor: pointer;
+    
+  }
+  
+  .code-container {
+     word-wrap: break-word;
+  } 
+  
+  .main-section li {
+    font-family: Trebuchet MS; 
+    font-size: 1.2rem;
+  }
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+  *{
+      scroll-behavior: smooth;
+  }
+  }
+  
+  code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    word-wrap: normal;
+  }
+  
+  @media (min-width: 750px){
+    body {
+      flex-direction: row
+    }
+  }

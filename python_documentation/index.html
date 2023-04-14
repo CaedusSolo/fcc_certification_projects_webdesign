@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale: 1.0" />
+    <link rel="stylesheet" href=
+"styles.css" >
+    <title>Python Documentation</title>
+  </head>
+  <main id="main-doc">
+    <body>
+      <nav id="navbar">   
+        <header>
+          <h2>Python Documentation </h2>
+        </header>
+        <ul>
+          <li><a href="#Introduction_to_Python" class="nav-link">Introduction to Python</a></li>
+          <li><a href="#Data_Types" class="nav-link">Data Types</a></li>
+          <li><a href="#Declaring_Variables" class="nav-link">Declaring Variables</a></li>
+          <li><a href="#Printing_to_the_console" class="nav-link">Printing to the console</a></li>
+          <li><a href="#String_Concatenation" class="nav-link">String Concatenation</a></li>
+          <li><a href="#Accepting_User_Input" class="nav-link">Accepting User Input</a></li>
+      </ul>
+      </nav>
+      <section class="main-section" id="Introduction_to_Python">
+        <header class="header">Introduction to Python</header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python Logo" id="python-logo" />
+
+        <p> 
+          Python is a high-level, general-purpose programming language. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented, and functional programming. Python consistently ranks among the most popular programming languages today.</p>
+          
+        <p>Python was created by Guido van Rossum, who began working on Python in the late 1980s. He was the sole developer of Python from 1991 until his retirement in 2018.  In January 2019, active Python core developers elected a five-member Steering Council to lead the project.</p>
+<p>
+  The core philosophy of the Python programming language is summarised in the document The Zen of Python, which includes elements such as: 
+</p>
+<ul>
+  <li>Beautiful is better than ugly.</li>
+  <li>Explicit is better than implicit.</li>
+  <li>Simple is better than complex.</li>
+  <li>Complex is better than complicated.</li>
+  <li>Readability counts.</li>
+</ul>
+      </section>
+      <section class="main-section" id="Data_Types">
+        <header class="header">Data Types</header>
+        <p>There are a few data types in Python, mainly string, int, float, boolean.</p> 
+ </section>
+ <section class="main-section" id="Declaring_Variables">
+<header class="header">Declaring Variables</header>
+   <p>String variable is declared using double quotes (" ") or single quotes (' '). </p>
+<p> In this example, a string variable with a name of "name" is declared, the value being "Jason".</p>
+  <pre class="code">
+    <code>name="Jason"</code>
+  </pre>
+<p>Int variable is declared by assigning an integer value to a variable. For example, to declare a "price" variable with the value of 10, the following code can be used: </p>
+<pre  class="code"><code>price=10</code>
+</pre>
+<p>Float type is different from int type in the sense that float data types <em>can</em> store decimal point values, while int data type <em>cannot</em> store decimal point values. For example, to declare a "height" variable with a value of 170.5, the following code can be used: 
+<pre class="code"><code>height=170.5</code></pre>
+<p>Boolean data types can only store two values, either True or False (note the capitalisation). For example, to declare an "alive" variable with the value of True, the following code can be used: 
+<pre class="code"><code>alive= True</code>
+  </section>
+  <section class="main-section" id="Printing_to_the_console">
+    <header class="header">
+        Printing to the console</header> 
+<p>Time for the fun part, print statements. The print() function in Python allows a user to output text enclosed within the print function to the console window. </p>
+<p>To output "Hello World!" into the console, the following code can be used:</p>
+
+<pre class="code"><code>
+print("Hello World!")</code></pre> 
+<p>The code above will produce the following output: </p><pre class="code"><code>Hello World!</code></pre> 
+<p>We could also store the value "Hello World!" using a string variable, and then print to the console window. It will return the same output as before.</p>
+<pre class="code"><code>
+greeting="Hello World!" 
+print(greeting)</code></pre>
+      </section>
+      <section class="main-section" id="String_Concatenation"><header class="header">String Concatenation</header>
+<p>Now suppose we want to combine several variables into a single print() function. Consider the example below:</p>
+<pre class="code"><code>
+name="Jason"
+age=17
+height: 170
+</code></pre>
+<p>What should we do if we want the output of a print() function to be "My name is Jason, I am 17 years old and my height is 170 cm."? This is when string concatenation comes into play.</p>
+<p>We could do something like this: </p>
+<pre class="code"><code>
+name="Jason"
+age=17
+height: 170
+print("My name is "+name+", I am "+age+" years old and my height is "+height+" cm.")
+</code></pre>
+<p>However, it is not very readable and takes a lot of work. Instead, we can use an "f string", like so.</p>
+<div class="code-container">
+<pre class="code"><code>
+name="Jason"
+age=17
+height: 170
+print(f"My name is {name}, I am {age} years old and my height is {height} cm.")
+</code></pre>
+</div>
+<p>This will return: </p>
+<pre class="code"><code>
+My name is Jason, I am 17 years old and my height is 170 cm.
+</code></pre>
+      </section>
+      <section class="main-section" id="Accepting_User_Input">
+<header class="header">Accepting User Input</header>
+<p>In Python, to accept user input, the input() function is used. Do note that the input() function always returns a <b>string</b> value.</p>
+<p>For example, to prompt a user to enter their name, we can use the following code: </p>
+<pre class="code"><code>
+name = input("Enter your name: ") 
+</code></pre>
+<p>The response given by the user will be stored in the "name" variable.</p>
+      </section>
+    </body>
+  </main>
+</html>
