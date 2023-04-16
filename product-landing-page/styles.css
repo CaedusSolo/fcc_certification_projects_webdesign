@@ -1,0 +1,126 @@
+html {
+    background-color: #CBC3C3;
+    font-family: Verdana, Tahoma
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0
+  } 
+  
+  #header-img {
+    width: 105px;
+    height: 60px;
+    padding: 10px;
+  }
+  
+  nav > ul {
+    display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  
+  }
+  
+  nav > ul > li {
+    display: block;
+    margin: 0.3rem;
+    padding: 0 0.5rem;
+  
+  }
+  
+  #nav-bar a {
+    text-decoration: none;
+    color: black
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: Tahoma,Verdana;
+  
+  }
+  
+  .register-account {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: Verdana, Tahoma;
+    margin-top: 100px;
+  
+  }
+  
+  #form {
+    text-align: center;
+    font-family: Verdana, Tahoma;
+  
+  }
+  
+  input {
+    font-size: 1.01rem;
+    font-family: Verdana, Tahoma
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 25px auto;
+    width: 40%;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid black;
+  
+  } 
+  
+  .courses-section h2, .features-section h2, .faq-section h2
+  {
+    margin-top: 60px;
+    text-align: center;
+    
+  } 
+  
+  .courses-list > li {
+    list-style: none;
+  } 
+  
+  .course-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px
+  } 
+  
+  .feature-title, .question-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 10px;
+  } 
+  
+  .feature-explanation, .answer {
+    margin-left: -30px
+  }
+  
+  .answer a {
+    color: black;
+  }
+  
+  .features-section, .faq-section  {
+    padding: 0 20px
+  }
+  
+  footer {
+    border-top: 2px solid black
+  } 
+  
+  .disclaimer {
+    text-align: center
+  } 
+  
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
